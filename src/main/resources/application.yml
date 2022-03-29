@@ -2,7 +2,9 @@ spring:
   profiles:
     active:
       - local
-
+  batch:
+    jdbc:
+      initialize-schema: always
 ---
 spring:
   config:

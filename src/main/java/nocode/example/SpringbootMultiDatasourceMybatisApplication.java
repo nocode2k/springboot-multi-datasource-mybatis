@@ -18,7 +18,7 @@ public class SpringbootMultiDatasourceMybatisApplication implements CommandLineR
 
 	@Override
 	public void run(String... args) {
-		memberService.saveMember();
+		//memberService.saveMember();
 		memberService.viewMember();
 	}
 }
