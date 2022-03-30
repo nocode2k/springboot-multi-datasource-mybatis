@@ -5,6 +5,10 @@ spring:
   batch:
     jdbc:
       initialize-schema: always
+logging:
+  level:
+    root: debug
+
 ---
 spring:
   config:
